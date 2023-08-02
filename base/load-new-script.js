@@ -7,16 +7,9 @@
       s.crossOrigin = "anonymous";
       s.type = 'text/javascript';
       s.src = 'https://cdn.jsdelivr.net/gh/Udjim/ti/parsers/bhe.js';
-  
-      // Define a function to be called when the script is loaded
-      s.onload = function() {
-        window.bhe(); // Call the function after the script is loaded
-      };
-  
+      s.onload = function() {window.bhe();};
       document.getElementsByTagName('head')[0].appendChild(s);
-    } else {
-      window.bhe(); // Call the function directly if it's already defined
-    }
+    } else {window.bhe();}
   })();
 
 
