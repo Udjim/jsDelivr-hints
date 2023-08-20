@@ -13,7 +13,7 @@
   })();
 
 
-
+//INFO:
 //https://jscompress.com
 //https://chat.openai.com/c/22e94ff8-11db-4aeb-9a5f-8e0b68484b97
 //chatGPT promt:
